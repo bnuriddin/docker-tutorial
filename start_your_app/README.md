@@ -232,7 +232,7 @@ RUN apk add --no-cache nginx=${NGINX_VERSION} && mkdir -p /run/nginx
 ```
 FROM alpine:3.14.3
 
-ENV NGINX_VERSION 1.20.2-r0
+ENV NGINX_VERSION 1.20.2-r1
 
 RUN apk add --no-cache nginx=${NGINX_VERSION} && mkdir -p /run/nginx
 
